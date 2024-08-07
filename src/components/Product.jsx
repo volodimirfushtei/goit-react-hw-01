@@ -1,11 +1,3 @@
-// src/Product.jsx
-
-// src/components/Product.jsx
-
-// src/components/Product.jsx
-
-// src/components/Product.jsx
-
 // src/components/Product.jsx
 
 export default function Product({ name, imgUrl, price }) {
