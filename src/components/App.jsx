@@ -1,10 +1,15 @@
-import Product from "./Product";
-
+import Profile from "./Profile";
+import userData from "../userData.json";
 export default function App() {
   return (
     <>
-      <h1>Best selling</h1> <Product name="Tacos With Lime" price={10.99} />{" "}
-      <Product name="Fries and Burger" price={14.29} />{" "}
+      <Profile
+        name={userData.username}
+        tag={userData.tag}
+        location={userData.location}
+        image={userData.avatar}
+        stats={userData.stats}
+      />
     </>
   );
 }
