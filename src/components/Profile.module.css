@@ -7,9 +7,9 @@
 .profile {
   width: 300px;
   margin: 0 auto;
-  background-color: #fff;
+  background-color: #f5eded;
   border-radius: 5px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
   text-align: center;
   border: 3px solid #070707;
 }
@@ -33,7 +33,7 @@
 
 .tag {
   font-size: 18px;
-  color: #aaa;
+  color: #6b6565;
   margin-bottom: 10px;
 }
 
@@ -47,7 +47,7 @@
   padding: 0;
   display: flex;
   justify-content: space-around;
-  background-color: #f0f0f0;
+  background-color: #b7b1b1;
   margin: 0;
   border-top: 1px solid #585555;
   height: auto;
@@ -61,7 +61,7 @@
 .label {
   display: block;
   font-size: 14px;
-  color: #888;
+  color: #201e1e;
 }
 
 .quantity {
