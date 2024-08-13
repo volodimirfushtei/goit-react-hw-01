@@ -75,3 +75,22 @@
   border-left: 1px solid #585555;
   border-right: 1px solid #585555;
 }
+.friend {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.friendAvatar {
+  border-radius: 50%;
+}
+
+.friendName {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.friendStatus {
+  margin-left: auto;
+  color: green; /* Example color for online status */
+}
