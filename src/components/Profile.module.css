@@ -6,10 +6,10 @@
 }
 .profile {
   width: 300px;
+  align-items: center;
   margin: 0 auto;
   background-color: #f5eded;
   border-radius: 5px;
-
   text-align: center;
   border: 3px solid #070707;
 }
@@ -77,10 +77,8 @@
 }
 .friends {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 20px;
-  margin-bottom: 10px;
+  gap: 16px;
   list-style-type: none;
 }
 
