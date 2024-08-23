@@ -1,3 +1,5 @@
+import "modern-normalize";
+
 import Profile from "./Profile";
 import userData from "../userData.json";
 import FriendList from "./FriendList";
