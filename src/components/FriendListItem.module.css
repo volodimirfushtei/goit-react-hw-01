@@ -1,0 +1,62 @@
+.friend:hover {
+  background-color: #e9dcdc;
+  animation: rotate 2s linear infinite;
+}
+.avatarFre {
+  width: 60px;
+  padding: 0;
+}
+
+.nameFre {
+  font-weight: bold;
+  font-size: 400;
+}
+
+.online {
+  color: green;
+  margin: 0;
+}
+.friend {
+  border: 2px solid #403d3d;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: auto;
+  padding: 4px;
+  background-color: #f0eaea;
+}
+.offline {
+  color: red;
+  margin: 0;
+}
+.avatarFre {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.avatarFre.fade-in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.avatarFre.fade-out {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.avatarFre:hover {
+  animation: rotate 2s linear infinite; /* Додаємо анімацію */
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
