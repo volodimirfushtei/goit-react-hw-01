@@ -1,11 +1,11 @@
 import "modern-normalize";
 
-import Profile from "./components/Profile";
-import userData from "./userData.json";
-import FriendList from "./components/FriendList";
-import friends from "./friends.json";
-import TransactionHistory from "./components/TransactionHistory";
-import transactions from "./transactions.json";
+import Profile from "./components/Profile/Profile";
+import userData from "./assets/userData.json";
+import FriendList from "./components/FriendList/FriendList";
+import friends from "./assets/friends.json";
+import TransactionHistory from "./components/TransactionHistory/TransactionHistory";
+import transactions from "./assets/transactions.json";
 
 // App.jsx
 export default function App() {
