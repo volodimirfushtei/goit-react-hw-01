@@ -1,7 +1,15 @@
 #root {
   margin: 0 auto;
-  padding: 30px;
+  padding: 20px;
   max-width: 1440px;
   text-align: center;
   background-color: #fff;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  &:hover {
+    background-color: #d5d0d0;
+  }
 }
