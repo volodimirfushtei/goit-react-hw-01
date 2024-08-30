@@ -1,5 +1,4 @@
 import "modern-normalize";
-
 import Profile from "./components/Profile/Profile";
 import userData from "./assets/userData.json";
 import FriendList from "./components/FriendList/FriendList";
